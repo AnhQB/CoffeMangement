@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeBook.Services
+namespace CoffeeBook.DAOs
 {
-    internal interface BillService
+    internal class BillService
     {
     }
 }
