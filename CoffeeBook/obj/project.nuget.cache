@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bS3lxgjHMNf7ZX83f+uUavyBXj1bScGsaVggvFT48R9ws8i0p0P1J0exzy7/uY3ABpbXZiXlvp8D5Wp09p0TZQ==",
+  "dgSpecHash": "/xuiD/fsbnWmZkdJ+tu2qcOFansMSKyqz3unVVoK1OkrWCv2//beGq9C+vm0q//hjrcmzFzQUMycKWaWAjaAPA==",
   "success": true,
   "projectFilePath": "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\CoffeeBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512",
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

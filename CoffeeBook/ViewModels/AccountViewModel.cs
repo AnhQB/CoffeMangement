@@ -45,8 +45,8 @@ namespace CoffeeBook.ViewModels
         private AccountDTO currentAccount;
         public AccountDTO CurrentAccount
         {
-            get { return accountEmployee; }
-            set { accountEmployee = value; OnPropertyChanged(); }
+            get { return currentAccount; }
+            set { currentAccount = value; OnPropertyChanged(); }
         }
 
 

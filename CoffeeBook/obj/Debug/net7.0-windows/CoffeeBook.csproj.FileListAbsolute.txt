@@ -60,3 +60,6 @@ D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\refi
 D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\CoffeeBook.pdb
 D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\CoffeeBook.genruntimeconfig.cache
 D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\ref\CoffeeBook.dll
+D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\App.baml
