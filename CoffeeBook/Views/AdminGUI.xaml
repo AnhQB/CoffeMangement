@@ -196,7 +196,7 @@
                             <Label Name="lbUsername" Content="User Name"/>
                             <TextBox Name="txtUsername" HorizontalAlignment="Stretch" 
                              Height="25" 
-                            Text="{Binding Path=Username ,Mode=OneWay}"
+                            Text="{Binding Path=UserName ,Mode=OneWay}"
                              DataContext="{Binding ElementName=lvAccount, 
                              Path=SelectedItem}"          
                             />
