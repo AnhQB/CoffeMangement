@@ -11,10 +11,11 @@ GO
 
 CREATE TABLE Account
 (
-	UserName NVARCHAR(100) PRIMARY KEY,
+	Id INT IDENTITY PRIMARY KEY,
+	UserName NVARCHAR(100) UNIQUE NOT NULL,
 	DisplayName NVARCHAR(100) NOT NULL DEFAULT N'N/A',
 	PassWord NVARCHAR(200) NOT NULL DEFAULT 0,
-	Type INT NOT NULL DEFAULT 0,  --1:admin, 0:staff
+	Type TINYINT NOT NULL DEFAULT 0,  --1:admin, 0:staff
 )
 GO
 
@@ -22,6 +23,7 @@ CREATE TABLE Category
 (
 	Id INT IDENTITY PRIMARY KEY,
 	Name NVARCHAR(100) NOT NULL DEFAULT N'N/A',
+
 )
 GO
 
@@ -42,9 +44,13 @@ CREATE TABLE Bill
 	DateCheckOut Date,
 	IdTable INT NOT NULL,
 	Status INT NOT NULL DEFAULT 0, --1:da tt, 0:chua tt
+	Created_by INT,
 	FOREIGN KEY (IdTable) REFERENCES [Table](Id),
+	FOREIGN KEY (Created_by) REFERENCES Account(Id)
 	 
 )
+
+Drop table bill
 GO
 
 CREATE TABLE BillInfo
@@ -57,6 +63,8 @@ CREATE TABLE BillInfo
 	FOREIGN KEY (IdProduct) REFERENCES Product(Id),
 
 )
+
+drop table BillInfo
 GO
 
 INSERT INTO Account(UserName,DisplayName,PassWord,Type)

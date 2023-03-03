@@ -15,7 +15,11 @@ public partial class Bill
 
     public int Status { get; set; }
 
+    public int? CreatedBy { get; set; }
+
     public virtual ICollection<BillInfo> BillInfos { get; } = new List<BillInfo>();
+
+    public virtual Account CreatedByNavigation { get; set; }
 
     public virtual Table IdTableNavigation { get; set; }
 }

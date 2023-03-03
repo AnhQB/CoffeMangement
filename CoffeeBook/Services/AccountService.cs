@@ -25,9 +25,8 @@ namespace CoffeeBook.DAOs
 
             //string query = "USP_Login @UserName , @PassWord";
             var result = context.Accounts.FirstOrDefault(u => u.UserName == userName
-                                                                    && u.PassWord == passWord);
+            && u.PassWord == passWord);
             //DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { userName, hasPass /*list*/});
-
             return result != null;
             // return AccountDAO.Instance.Login(userName, passWord);
         }
@@ -48,7 +47,8 @@ namespace CoffeeBook.DAOs
                 account.PassWord = newPass;
                 var NoOfRowsAffected = context.SaveChanges();
                 isUpdated = NoOfRowsAffected > 0;
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -66,8 +66,13 @@ namespace CoffeeBook.DAOs
                                select obj;
                 foreach (var account in ObjQuery)
                 {
-                    objAccountList.Add(new AccountDTO { UserName = account.UserName, DisplayName = account.DisplayName, 
-                        Type = account.Type == 0 ? "Admin" : "Staff"});
+                    objAccountList.Add(new AccountDTO
+                    {
+                        Id = account.Id,
+                        UserName = account.UserName,
+                        DisplayName = account.DisplayName,
+                        Type = account.Type == 0 ? "Admin" : "Staff"
+                    });
                 }
             }
             catch (Exception ex)
@@ -77,7 +82,7 @@ namespace CoffeeBook.DAOs
             return objAccountList;
         }
 
-        public bool InsertAccount(string name, string displayName, int type)
+        public bool InsertAccount(string name, string displayName, byte type)
         {
             bool IsAdded = false;
             if (GetAccountByUserName(name) != null)
@@ -90,7 +95,7 @@ namespace CoffeeBook.DAOs
                 var account = new Account();
                 account.UserName = name;
                 account.DisplayName = displayName;
-                account.Type = type; 
+                account.Type = type;
 
                 context.Accounts.Add(account);
                 var NoOfRowsAffected = context.SaveChanges();
@@ -108,7 +113,7 @@ namespace CoffeeBook.DAOs
             return result > 0;*/
         }
 
-        public bool UpdateAccount(string name, string displayName, int type)
+        public bool UpdateAccount(string name, string displayName, byte type)
         {
             /*string query = string.Format("UPDATE Account SET DisplayName = N'{1}', Type = {2} WHERE UserName = N'{0}'", name, displayName, type);
             int result = DataProvider.Instance.ExecuteNonQuery(query);
