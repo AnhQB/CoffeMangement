@@ -8,7 +8,6 @@ namespace CoffeeBook.DTOs
 {
     public class AccountDTO
     {
-        public int Id { get; set; }
         public string UserName { get; set; }
 
         public string DisplayName { get; set; }

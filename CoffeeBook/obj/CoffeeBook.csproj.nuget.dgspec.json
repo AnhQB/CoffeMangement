@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\CoffeeBook.csproj": {}
+    "D:\\Hoc Ki 7\\PRN221\\GitHub\\CoffeeMangement\\CoffeeBook\\CoffeeBook.csproj": {}
   },
   "projects": {
-    "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\CoffeeBook.csproj": {
+    "D:\\Hoc Ki 7\\PRN221\\GitHub\\CoffeeMangement\\CoffeeBook\\CoffeeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\CoffeeBook.csproj",
+        "projectUniqueName": "D:\\Hoc Ki 7\\PRN221\\GitHub\\CoffeeMangement\\CoffeeBook\\CoffeeBook.csproj",
         "projectName": "CoffeeBook",
-        "projectPath": "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\CoffeeBook.csproj",
-        "packagesPath": "C:\\Users\\LAPTOP VINH HA\\.nuget\\packages\\",
-        "outputPath": "D:\\ki_7_2023_jan\\PRN221\\project\\Project\\CoffeeBook\\obj\\",
+        "projectPath": "D:\\Hoc Ki 7\\PRN221\\GitHub\\CoffeeMangement\\CoffeeBook\\CoffeeBook.csproj",
+        "packagesPath": "C:\\Users\\phank\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc Ki 7\\PRN221\\GitHub\\CoffeeMangement\\CoffeeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LAPTOP VINH HA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

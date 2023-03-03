@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\obj\Debug\net7.0-windows\
+D:\Hoc Ki 7\PRN221\GitHub\CoffeeMangement\CoffeeBook\obj\Debug\net7.0-windows\
 CoffeeBook
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\ki_7_2023_jan\PRN221\project\Project\CoffeeBook\App.xaml
-2-1747126198
+D:\Hoc Ki 7\PRN221\GitHub\CoffeeMangement\CoffeeBook\App.xaml
+2-1710102379
 
-21480668565
-2281929599453
-MainWindow.xaml;Views\AdminGUI.xaml;
+21-1487085933
+228-813832239
+MainWindow.xaml;Views\LoginGUI.xaml;
 
 False
 
