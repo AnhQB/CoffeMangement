@@ -176,7 +176,7 @@
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
 
-                        <ListView Grid.Column="0" ItemsSource="{Binding AccountsList}">
+                        <ListView Grid.Column="0" ItemsSource="{Binding AccountsList}" Name="lvAccount">
                             <ListView.View>
                                 <GridView>
                                     <GridView.Columns>
@@ -191,13 +191,13 @@
                         <StackPanel Grid.Column="1"  Orientation ="Vertical" 
                             HorizontalAlignment="Left" Width="400" Margin="0 10" Background="#7FC6FF00">
                             <Label Name="lbTitle" Foreground="Red" FontWeight="DemiBold" 
-                           FontSize="20" Content="Id:"  />
+                           FontSize="20" Content="{Binding Path=Id, Mode=OneWay}"  />
 
                             <Label Name="lbUsername" Content="User Name"/>
                             <TextBox Name="txtUsername" HorizontalAlignment="Stretch" 
                              Height="25" 
                             Text="{Binding Path=Username ,Mode=OneWay}"
-                             DataContext="{Binding ElementName=AccountsList, 
+                             DataContext="{Binding ElementName=lvAccount, 
                              Path=SelectedItem}"          
                             />
 
@@ -205,7 +205,7 @@
                             <TextBox Name="txtDisplayName" HorizontalAlignment="Stretch"
                              Height="25"  
                             Text="{Binding Path=DisplayName ,Mode=OneWay}"
-                             DataContext="{Binding ElementName=AccountsList, 
+                             DataContext="{Binding ElementName=lvAccount, 
                              Path=SelectedItem}"          
                             />
 
@@ -213,7 +213,7 @@
                             <TextBox Name="txtType" HorizontalAlignment="Stretch"
                              Height="25"  
                             Text="{Binding Path=Type ,Mode=OneWay}"
-                             DataContext="{Binding ElementName=AccountsList, 
+                             DataContext="{Binding ElementName=lvAccount, 
                              Path=SelectedItem}"            
                             />
 
